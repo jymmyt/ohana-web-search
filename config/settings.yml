@@ -13,7 +13,7 @@
 # When viewing the details page for a location, there is an 'Edit' link
 # at the bottom of the page that takes you to the corresponding location
 # in the admin interface. Below, specify the URL for your Admin site.
-admin_site: http://ohana-api-demo.herokuapp.com/admin
+admin_site: http://ohana-aetna.herokuapp.com/admin
 
 ##########################
 #
@@ -30,7 +30,7 @@ admin_site: http://ohana-api-demo.herokuapp.com/admin
 # otherwise you won't receive any feedback emails.
 feedback_email:
   to:
-    - ohanapi@codeforamerica.org
+    - jterhorst+ohana@itriagehealth.com
 
 ##########################
 #
@@ -278,7 +278,7 @@ phone_extension_delimiter: x
 #
 ###########################################
 test:
-  admin_site: http://ohana-api-demo.herokuapp.com/admin
+  admin_site: http://ohana-aetna.herokuapp.com/admin
 
   feedback_email:
     to:
